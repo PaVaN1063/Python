@@ -1,0 +1,14 @@
+number = int(input("How many numbers would you like to enter: "))
+value = int(input("Enter an input value: "))
+count = 1
+largest = value
+smallest = value
+while count < number :
+    value = int(input("Enter an input value: "))
+    count = count + 1
+    if value > largest :
+        largest = value
+    if value < smallest :
+        smallest = value
+print("The maximum is: ", largest)
+print("The minimum is: ", smallest)
