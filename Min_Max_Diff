@@ -1,4 +1,4 @@
-# Program to print Minimum and Maximum and the difference between Minimum and maximum.
+# Program to print Minimum and Maximum and the difference between Minimum and maximum of numbers.
 number = int(input("How many numbers would you like to enter: "))
 value = int(input("Enter an input value: "))
 count = 1
